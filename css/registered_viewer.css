@@ -7,6 +7,29 @@ body{
     filter: blur(20px);
 }
 
+#popup-upload{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background-color: white;
+}
+
+#file-upload{
+    border: 1px solid black;
+    padding: 35px;
+}
+
+.popup-focused-btn{
+    /* TODO: Make the submit-btn either centered or to the right*/
+    margin-top: 45px;
+    padding: 0 15px 0 15px;
+}
+
 .grid-container-top{
     /* display:grid;
     grid-template-columns: 0.5fr 5fr 1fr; */
