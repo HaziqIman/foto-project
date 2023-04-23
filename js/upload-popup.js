@@ -1,7 +1,8 @@
-function UploadFunction() {
-    // TODO: Add function where it displays a pop up of upload
-    console.log("Hello World!");
+function PopUp() {
+    var blur = document.getElementById("blur");
+    blur.classList.toggle('active');
 }
 
 const uploadBtn = document.getElementById("upload-btn");
-uploadBtn.addEventListener("click", UploadFunction);
+uploadBtn.addEventListener("click", PopUp);
+
