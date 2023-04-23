@@ -23,7 +23,7 @@ body{
     text-align: right;
 }
 
-.grid-item-button #btn{
+.grid-item-button .btn{
     border: none;
     background-color: transparent;
     color: white;
