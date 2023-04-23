@@ -3,6 +3,10 @@ body{
     padding: 0;
 }
 
+#blur.grid-all-contents.active{
+    filter: blur(20px);
+}
+
 .grid-container-top{
     /* display:grid;
     grid-template-columns: 0.5fr 5fr 1fr; */
