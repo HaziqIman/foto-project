@@ -57,7 +57,7 @@ body{
     text-align: center;
 }
 
-.grid-item-nav #btn1{        
+.grid-item-nav .btn1{        
     border: none;
     border-radius: 15px 15px;
     background-color: #f1ede6;
@@ -67,7 +67,7 @@ body{
     cursor: pointer;
 }
 
-.grid-item-nav #btn1:hover{
+.grid-item-nav .btn1:hover{
     cursor: pointer; 
     background-color: #885e43;
     color: white;
