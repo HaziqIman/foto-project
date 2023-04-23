@@ -9,25 +9,30 @@
     <title>Registered Viewer Page</title>
 </head>
 <body>
-    <!-- For the top part of the user profile -->
+    <!-- ! Header -->
     <div class="grid-container-top">
+
         <div class="grid-item-button">
             <button id="btn">
                 <i class="fa-solid fa-box-archive"></i>
-                <a style="text-decoration: none; color: #fff; font-size: 15px; font-weight: 500;" rel="Archive" href="/html/archive_page.html" onclick="history.go(-1)">Archive</a>
+                <a style="text-decoration: none; color: #fff; font-size: 15px; font-weight: 500;" 
+                rel="Archive" href="/html/archive_page.html" onclick="history.go(-1)">Archive</a>
             </button>
             <button id="btn">
                 <i class="fa-solid fa-house"></i>
-                <a style="text-decoration: none; color: #fff; font-size: 15px; font-weight: 500;" rel="Home" href="/index.html" onclick="history.go(-1)">Home</a>
+                <a style="text-decoration: none; color: #fff; font-size: 15px; font-weight: 500;" 
+                rel="Home" href="/index.html" onclick="history.go(-1)">Home</a>
             </button>
             <button id="btn">
                 <i class="fa-solid fa-right-from-bracket"></i>
                 <!-- <a style="text-decoration: none; color: #fff; font-size: 15px; font-weight: 500;" rel="Logout" href="" onclick="history.go(-1)">Logout</a> -->
              Logout</button>
         </div>
+
         <div class="grid-item-pp">
             <img id="profile-picture" src="https://sp-images.summitpost.org/1029634.jpg?auto=format&fit=max&h=1000&ixlib=php-2.1.1&q=35&s=ecb21af14d170fe140aca29c69dc1452" alt="profile-picture">
         </div>
+
         <div class="grid-item">
             <div class="username">
                 <div>
@@ -38,13 +43,15 @@
                 </div>
             </div>
         </div>
+
         <div class="grid-item-nav">
             <button id="btn1"><i class="fa-solid fa-upload"></i> Upload</button>
             <button id="btn1"><i class="fa-solid fa-trash"></i> Delete</button>
             <button id="btn1"><i class="fa-solid fa-bookmark"></i> Saved</button>
         </div>
     </div>
-    <!-- For the polaroids content -->
+
+    <!-- ! Main Contents - Images -->
     <div class="grid-container-bottom">
         <div class="polaroid">
             <div class="pol-img">
@@ -114,6 +121,7 @@
                 <p>Sunset</p>
             </div>
         </div>
+
         <div class="polaroid">
             <div class="pol-img">
                 <img id="myImg6" src="https://images.unsplash.com/photo-1677383287914-621482c71074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80" alt="Bird" title="Bird">
@@ -127,6 +135,7 @@
                 <p>Bird</p>
             </div>
         </div>
+
         <div class="polaroid">
             <div class="pol-img">
                 <img id="myImg7" src="https://images.unsplash.com/photo-1676714815667-612ecce49035?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Spongebob" title="Spongebob">
@@ -140,6 +149,7 @@
                 <p>Spongebob</p>
             </div>
         </div>
+
         <div class="polaroid">
             <div class="pol-img">
                 <img id="myImg8" src="https://images.unsplash.com/photo-1676947615694-e56d12b4f1c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="Flag" title="Flag">
@@ -153,6 +163,7 @@
                 <p>Flag</p>
             </div>
         </div>
+
         <div class="polaroid">
             <div class="pol-img">
                 <img id="myImg9" src="https://images.unsplash.com/photo-1677065286317-f27a1e2458de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80" alt="What You Lookin At" title="What You Lookin At">
@@ -166,6 +177,7 @@
                 <p>What You Lookin At</p>
             </div>
         </div>
+
     </div>
 
     <script>
