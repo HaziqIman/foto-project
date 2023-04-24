@@ -7,21 +7,35 @@ body{
     filter: blur(20px);
 }
 
-#popup-upload{
+.popup-upload{
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 550px;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
     background-color: white;
 }
 
-#file-upload{
+.popup-upload .file-input-div{
+    margin-bottom: 35px;
+    display: grid;
+}
+
+.popup-upload .file-input-div #file-upload-input{
     border: 1px solid black;
     padding: 35px;
+}
+
+.popup-upload .caption-input-div{
+    display: grid;
+}
+
+.popup-upload .submission-input-div{
+    display: flex;
+    justify-content: center;
 }
 
 .popup-focused-btn{
